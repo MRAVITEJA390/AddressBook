@@ -1,10 +1,6 @@
-from .address_book import (
-    AddressBookCreate,
-    AddressBookUpdate,
-    AddressBookDetail,
-    AddressCoordinates,
-    AddressWithDistance,
-)
+from .address_book import (AddressBookCreate, AddressBookDetail,
+                           AddressBookUpdate, AddressCoordinates,
+                           AddressWithDistance)
 
 __all__ = [
     "AddressBookCreate",

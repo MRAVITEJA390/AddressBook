@@ -1,16 +1,12 @@
 from fastapi import APIRouter, Depends, HTTPException
 from geopy.distance import great_circle
 from sqlalchemy.orm import Session
+
 from database import Base, engine
 from dependencies import get_db
 from models import AddressBook
-from schemas import (
-    AddressBookCreate,
-    AddressBookUpdate,
-    AddressBookDetail,
-    AddressCoordinates,
-    AddressWithDistance,
-)
+from schemas import (AddressBookCreate, AddressBookDetail, AddressBookUpdate,
+                     AddressCoordinates, AddressWithDistance)
 
 router = APIRouter(prefix="/api/v1")
 
