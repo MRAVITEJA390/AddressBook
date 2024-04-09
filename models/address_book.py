@@ -4,7 +4,7 @@ from database import Base
 
 
 class AddressBook(Base):
-    __tablename__ = 'addressbook'
+    __tablename__ = "addressbook"
 
     id = Column(Integer, primary_key=True)
     name = Column(String, nullable=False)
