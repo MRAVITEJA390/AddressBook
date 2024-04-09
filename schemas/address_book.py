@@ -29,4 +29,4 @@ class AddressCoordinates(BaseModel):
 
 class AddressWithDistance(AddressBookBase):
     id: int
-    distance: int
+    distance: float

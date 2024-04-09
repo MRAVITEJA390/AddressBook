@@ -93,7 +93,7 @@ async def get_addresses_within_distance(
                     name=address.name,
                     latitude=address.latitude,
                     longitude=address.longitude,
-                    distance=distance,
+                    distance=distance_diff,
                 )
             )
 
