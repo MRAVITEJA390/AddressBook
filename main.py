@@ -4,7 +4,7 @@ from apis import router
 app = FastAPI()
 
 
-@app.get('/health_check/')
+@app.get("/health_check/")
 async def hello_world():
     return {"message": "Hello World"}
 
