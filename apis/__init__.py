@@ -4,4 +4,4 @@ import models
 import schemas
 from .address_book import router
 
-__all__ = ['router', 'dependencies', 'models', 'schemas', 'database']
+__all__ = ["router", "dependencies", "models", "schemas", "database"]
